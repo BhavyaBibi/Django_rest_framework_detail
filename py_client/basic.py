@@ -1,7 +1,7 @@
 from sys import api_version
 import requests
 
-endpoint ="https://github.com"
+# endpoint ="https://github.com"
 endpoint="http://httpbin.org/status/200"
 
 endpoint="http://httpbin.org/anything"
@@ -11,4 +11,7 @@ endpoint="http://httpbin.org/anything"
 
 
 
-# rest api as web based api_version
+# rest api as web based api_version'
+
+get_response =requests.get(endpoint)
+print(get_response.text)
